@@ -1,6 +1,6 @@
 <?php
 
-//This program is ran every 15 minutes
+//This program is ran every 15 minutes via Cron Job
 //It grabs data from the exchange such as the total amount of CNs running and saves it into a file
 //File 1 has all the cns
 
