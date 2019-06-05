@@ -4,8 +4,8 @@
 //It grabs data from the exchange such as the total amount of CNs running and saves it into a file
 //File 1 has all the cns
 
-define("DEFAULT_SERVER","127.0.0.1"); //This is the server that we try to connect to
-define("DEFAULT_PORT",55364); //Server port on mainnet
+define("DEFAULT_SERVER","127.0.0.1"); //This is the CN server that we try to connect to
+define("DEFAULT_PORT",55364); //CN Server port on mainnet
 
 //Create a connection 
 $fp = stream_socket_client('tcp://'.DEFAULT_SERVER.':'.DEFAULT_PORT,$errno,$errmsg);
